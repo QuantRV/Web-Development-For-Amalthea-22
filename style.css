@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.home{
+    background-image: url("img/intro2.webp");
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    /* want to change the color */
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.background-image{
+    height: auto;
+    width: auto;
+}
+.box-main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.firstHalf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+}
+
+.secondHalf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.textBig{
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.textSmall{
+    font-size: 1.6625rem;
+}
+
+.about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #fff1db;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.firstPart{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 45%;
+}
+
+.secondPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    width: 55%;
+}
+
+.formalt{
+    background-color: #0cc2f3;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.288rem;
+    color: black;
+
+}
+
+.feedback-box{
+    height: 130vh
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 0%;
+}
+
+.feedbackTxt{
+    font-family: 'Source Code Pro', monospace
+}
+
+.formTxt{
+    color: white;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #0500c3;
+    padding: 20px;
+  }
+
+  
+
+.footer{
+    background-color: #ffca67;
+    
+}
+
+.designedBy{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ftrTxt{
+    font-size: 1.4125rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 1030px){
+    .home{
+        flex-direction: column;
+    }
+    .box-main{
+        margin: auto;
+        margin-top: 20%;
+        padding: auto;
+        height: auto;
+        flex-direction: column;
+        width: 95%;
+    }
+    .feedback{
+        margin-top: 55%;
+        height: auto;
+    }
+    .designedBy{
+        max-height:15px;
+    }
+}
